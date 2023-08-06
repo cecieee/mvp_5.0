@@ -12,7 +12,6 @@ body{
     word-spacing: 3px;
     letter-spacing: 1.5px;
     overflow-x: hidden;
-
 }
 
 /* rgb(249, 248, 255) */
@@ -98,6 +97,7 @@ body{
       -webkit-text-stroke: 1px white;
 }
 #home-tasks p{
+    text-align: end;
     color: white;
     font-size: 20px;
     font-weight: 400;
@@ -105,7 +105,6 @@ body{
     margin-bottom: 0;
 }
 .home-tasks-explore{
-    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -171,12 +170,15 @@ body{
 }
 
 #rules{
-    padding-top: 5%; 
-    padding-bottom: 5%;
+    padding-top: 100px; 
+    padding-bottom: 100px;
 }
 #rules ol{
     font-size: 1.25rem;
     padding-top: 1%;
+}
+.row{
+    margin: 0;
 }
 #rules li{
     padding-top: 1.5vw;
@@ -188,13 +190,13 @@ body{
     margin-left: 0;
     margin-right: 0;
     color: rgb(16, 16, 27);
-    padding-bottom: 5%;
+    padding-bottom: 60px;
 }
 #ranking p{
     text-align: center;
 }
 #ranking .col-lg-12{
-    padding-top: 3%;
+    padding-top: 50px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -217,19 +219,19 @@ body{
 #rank tr:nth-child(1) {
     font-size: 30px;
     font-weight: bolder;
-    background-color:rgb(255, 177, 61) ;
+    background-color:rgb(129, 61, 255) ;
     color: white;
 }
 #rank tr:nth-child(2) {
     font-size: 25px;
     font-weight: bolder;
-    background-color:rgba(255, 177, 61, 0.753) ;
+    background-color:rgba(129, 61, 255, 0.781) ;
     color: white;
 }
 #rank tr:nth-child(3) {
     font-size: 20px;
     font-weight: bolder;
-    background-color:rgba(255, 177, 61, 0.596) ;
+    background-color:rgba(129, 61, 255, 0.562) ;
     color: white;
 }
 #rank td:nth-child(1) {
@@ -243,6 +245,20 @@ body{
 
 #prizes{
     padding-top: 5%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.prizes-title{
+    margin-left: -0vw;
+    font-size: 20vw;
+    padding: 0;
+    color: rgba(255, 255, 255, 0);
+      font-weight:600;     
+      -webkit-text-stroke: 2px rgba(255, 255, 255, 0.438);
+      text-align: center;
 }
 
 .footer{
@@ -272,4 +288,58 @@ body{
 }
 .footer-text p{
     margin: 0;
+}
+
+@media (max-width: 768px) {
+    .sub-heading{
+        font-size: 40px;
+    }
+    #about p{
+        font-size: 15px;
+    }
+    #home-tasks p{
+        font-size: 15px;
+        text-align: center;
+    }
+    #home-tasks h1{
+        padding-top: 20px;
+        padding-bottom: 10px;
+        font-size: 40px;
+    }
+    #home-tasks h1 span{
+        font-size: 40px;
+    }
+    .home-tasks-explore .col-sm-12{
+        padding-top: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 15px;
+    }
+    #rules li{
+        font-size: 15px;
+    }
+    #rank tr:nth-child(1) {
+        font-size: 18px;
+
+    }
+    #rank tr:nth-child(2) {
+        font-size: 16px;
+
+    }
+    #rank tr:nth-child(3) {
+        font-size: 14px;
+
+    }
+    #rank td:nth-child(1) {
+       padding: 10px 15px;
+    }
+    #rank td:nth-child(2) {
+        border-radius: 0px 10px 10px 0px;
+        text-align: start;
+    }
+    #rules{
+        padding-top: 60px; 
+        padding-bottom: 60px;
+    }
 }
