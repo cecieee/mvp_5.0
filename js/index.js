@@ -12,3 +12,12 @@
   
   
   $(document).ready(loadScoresGSheet);
+
+  let prizeTitle = document.getElementById("prizes-title");
+  let prize =document.getElementById("prizes");
+  window.addEventListener("scroll", function() {
+    let value = window.scrollY;
+     if (value<3153) {
+      prizeTitle.style.fontSize = value *0.008  +"vw";
+     }
+  });
