@@ -252,6 +252,7 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
 #prizes-title{
@@ -270,6 +271,7 @@ a{
     padding-top: 5%;
     padding-bottom: 5%;
 }
+
 #first-row{
     height: 450px;
     width: 100%;
@@ -300,9 +302,9 @@ a{
 }
 #first-row img{
     position: absolute;
-    height: 300px;
-    margin-bottom: 25px;
-    margin-left: 70px;
+    height: 280px;
+    margin-bottom: 30px;
+    margin-left: 60px;
 }
 #first-row p{
     margin-left: 100px;
