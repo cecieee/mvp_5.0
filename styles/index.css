@@ -447,7 +447,7 @@ a{
 .excess-prize-image{
     height: 300px;
     width: 300px;
-    border-radius: 30% 70% 61% 39% / 63% 67% 33% 37%  ;
+    border-radius: 37% 63% 61% 39% / 29% 49% 51% 71% ;
     background-image: linear-gradient(40deg, #1e00ff, #9a1eff);
     display: flex;
     align-items: center;

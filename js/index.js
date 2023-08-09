@@ -21,3 +21,4 @@
       prizeTitle.style.fontSize = value *0.008  +"vw";
      }
   });
+
