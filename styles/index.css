@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 *{
     margin: 0px;
     border: 0px;
     padding: 0px;
 }
 body{
-
     background-color: rgb(16, 16, 27);
     font-family: 'Poppins', sans-serif;
     color:rgb(249, 248, 255) ;
@@ -33,13 +33,17 @@ a{
 }
 .navbar{
     z-index: 3;
-    background-color: rgb(16, 16, 27);
+    background-color: rgba(16, 16, 27, 0);
 }
 .title-box{
     width: 100%;
     height: 100vh;
     display: flex;
     justify-content: center;
+    background-image:linear-gradient(rgba(16, 16, 27, 0),rgba(16, 16, 27, 0), rgb(16, 16, 27)), url("/assests/intro.gif");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
     align-items: center;
     margin-left: 0;
 }
@@ -51,12 +55,14 @@ a{
 }
 
 #title-text p{
+    font-family: 'Orbitron', sans-serif;
     font-weight: bolder;
     text-align: center;
     color: rgb(249, 248, 255);
-    font-size: 18vw;
+    font-size: 16vw;
 }
 #about{
+    margin-top: 5%;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -196,6 +202,11 @@ a{
     margin-right: 0;
     color: rgb(16, 16, 27);
     padding-bottom: 60px;
+    background-image: url("/assests/5367739.jpg");
+    background-blend-mode: multiply;
+    background-size: cover ;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 #ranking p{
     text-align: center;
