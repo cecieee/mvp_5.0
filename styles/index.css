@@ -40,7 +40,7 @@ a{
     height: 100vh;
     display: flex;
     justify-content: center;
-    background-image:linear-gradient(rgba(16, 16, 27, 0),rgba(16, 16, 27, 0), rgb(16, 16, 27)), url("/assests/intro.gif");
+    background-image:linear-gradient(rgba(16, 16, 27, 0),rgba(16, 16, 27, 0), rgb(16, 16, 27)), url("../assests/intro.gif");
     background-position:center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -202,7 +202,7 @@ a{
     margin-right: 0;
     color: rgb(16, 16, 27);
     padding-bottom: 60px;
-    background-image: url("/assests/5367739.jpg");
+    background-image: url("../assests/5367739.jpg");
     background-blend-mode: multiply;
     background-size: cover ;
     background-position: center;
