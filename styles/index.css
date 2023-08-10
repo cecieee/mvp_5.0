@@ -229,26 +229,39 @@ a{
     border-collapse:separate;
     border-spacing:0 10px;
 }
+
 #rank td {
     padding: 15px 30px 15px;
 }
 #rank tr:nth-child(1) {
+    border-radius: 61px;
+background: linear-gradient(315deg, #cacaca, #f0f0f0);
+box-shadow:  -8px -8px 16px #a8a8a8,
+             8px 8px 16px #ffffff;
     font-size: 30px;
-    font-weight: bolder;
+    font-weight: 200;
     background-color:rgb(129, 61, 255) ;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 #rank tr:nth-child(2) {
+    border-radius: 61px;
+background: linear-gradient(315deg, #cacaca, #f0f0f0);
+box-shadow:  -8px -8px 16px #a8a8a8,
+             8px 8px 16px #ffffff;
     font-size: 25px;
-    font-weight: bolder;
+    font-weight: 200;
     background-color:rgba(129, 61, 255, 0.781) ;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 #rank tr:nth-child(3) {
+    border-radius: 61px;
+background: linear-gradient(315deg, #cacaca, #f0f0f0);
+box-shadow:  -8px -8px 16px #a8a8a8,
+             8px 8px 16px #ffffff;
     font-size: 20px;
-    font-weight: bolder;
+    font-weight: 200;
     background-color:rgba(129, 61, 255, 0.562) ;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 #rank td:nth-child(1) {
     border-radius: 10px 0px 0 10px;
@@ -477,6 +490,8 @@ a{
     text-transform: uppercase;
 }
 .footer{
+    bottom: 0;
+    
     width: 100%;
     background-color: rgb(13, 11, 20);
     padding-top: 2%;
@@ -504,6 +519,10 @@ a{
 .footer-text p{
     margin: 0;
 }
+
+
+
+
 
 @media (max-width: 768px) {
     .sub-heading{
