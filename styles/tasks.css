@@ -32,6 +32,7 @@ h1 {
     flex-direction: column;
     margin: 20px auto;
     position: relative;
+    min-height: 70vh;
 }
 .timeline__event {
     margin-bottom: 20px;
@@ -193,15 +194,32 @@ h1 {
 .timeline__event:last-child .timeline__event__icon:before {
     content: none;
 }
-@media (max-width: 786px) {
+.navbar{
+    background-color: rgb(16, 16, 27);
+}
+@media (max-width: 768px) {
     .timeline__event {
         flex-direction: column;
         align-self: center;
         width: 70vw;
    }
+   .tasks-heading{
+    font-size: 9vw;
+}
     .timeline__event__content {
+        font-size: 12px;
+        border-radius: 0;
         width: 100%;
    }
+   .timeline__event__title{
+    font-size: 13px;
+   }
+   .timeline__event:nth-child(2n + 1) .timeline__event__date {
+    border-radius: 0;
+}
+.timeline__event:nth-child(2n + 1) .timeline__event__content {
+    border-radius: 0;
+}
     .timeline__event__icon {
         display: none;
         border-radius: 6px 6px 0 0;

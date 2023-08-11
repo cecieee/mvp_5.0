@@ -16,9 +16,7 @@ body{
 a{
     text-decoration: none;
 }
-/* rgb(249, 248, 255) */
-/* rgb(255, 247, 214) */
-/* rgb(125, 135, 242) */
+
 .navbar-brand{
     width: 50%;
     display: flex;
@@ -82,16 +80,18 @@ a{
 #about .col-lg-5{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: start;
 }
 #about img{
-    width: 60%;
+    width: 100%;
 }
 #home-tasks{
     width: 100%;
     padding-top: 13%;
     padding-bottom: 13%;
-    background-image: url('../assests/bg-tasks.svg');
+    background-image: url('../assests/bg-tasks.svg') ;
+    /* background-blend-mode: exclusion; */
+    /* mix-blend-mode:difference ; */
     background-size: cover ;
     background-position: center;
     background-repeat: no-repeat;
@@ -240,7 +240,6 @@ box-shadow:  -8px -8px 16px #a8a8a8,
              8px 8px 16px #ffffff;
     font-size: 30px;
     font-weight: 200;
-    background-color:rgb(129, 61, 255) ;
     color: rgb(0, 0, 0);
 }
 #rank tr:nth-child(2) {
@@ -250,17 +249,15 @@ box-shadow:  -8px -8px 16px #a8a8a8,
              8px 8px 16px #ffffff;
     font-size: 25px;
     font-weight: 200;
-    background-color:rgba(129, 61, 255, 0.781) ;
     color: rgb(0, 0, 0);
 }
-#rank tr:nth-child(3) {
+#rank tr:nth-child(3) ,tr:nth-child(4) ,tr:nth-child(5) {
     border-radius: 61px;
 background: linear-gradient(315deg, #cacaca, #f0f0f0);
 box-shadow:  -8px -8px 16px #a8a8a8,
              8px 8px 16px #ffffff;
     font-size: 20px;
     font-weight: 200;
-    background-color:rgba(129, 61, 255, 0.562) ;
     color: rgb(0, 0, 0);
 }
 #rank td:nth-child(1) {
@@ -513,16 +510,12 @@ box-shadow:  -8px -8px 16px #a8a8a8,
     justify-content: center;
 }
 .footer img{
-    height: 40px;
+    height: 30px;
     padding-right: 30px;
 }
 .footer-text p{
     margin: 0;
 }
-
-
-
-
 
 @media (max-width: 768px) {
     .sub-heading{
@@ -555,15 +548,16 @@ box-shadow:  -8px -8px 16px #a8a8a8,
     }
     #rank tr:nth-child(1) {
         font-size: 18px;
+        font-weight: 300;
 
     }
     #rank tr:nth-child(2) {
         font-size: 16px;
-
+        font-weight: 300;
     }
-    #rank tr:nth-child(3) {
+    #rank tr:nth-child(3),tr:nth-child(4),tr:nth-child(5) {
         font-size: 14px;
-
+        font-weight: 300;
     }
     #rank td:nth-child(1) {
        padding: 10px 15px;
@@ -708,5 +702,16 @@ box-shadow:  -8px -8px 16px #a8a8a8,
         margin-top: -36px;
         font-weight: 600;
         font-size: 15px;
+    }
+    .footer img{
+        height: 15px;
+    }
+    .footer-text p{
+        margin: 0;
+        font-size: 8px;
+        word-spacing: 1px;
+    }
+    .prize-items{
+        margin-bottom: 100px;
     }
 }

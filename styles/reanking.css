@@ -62,8 +62,9 @@
 
 @media (max-width: 768px) {
   .rank-heading{
-    padding-top: 15vw;
+    padding-top: 18vw;
     font-size: 8vw;
+    padding-bottom: 2vw;
 }
     .table{
       font-size: 15px;
