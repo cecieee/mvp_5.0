@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/cecieeeo/public_html/repositories/mvp4.0
+    - /bin/cp * $DEPLOYPATH
