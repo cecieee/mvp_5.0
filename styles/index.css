@@ -32,6 +32,7 @@ a{
 .navbar{
     z-index: 3;
     background-color: rgba(16, 16, 27, 0);
+    text-align: center;
 }
 .title-box{
     width: 100%;
@@ -89,7 +90,7 @@ a{
     width: 100%;
     padding-top: 13%;
     padding-bottom: 13%;
-    background-image: url('../assests/bg-tasks.svg') ;
+    background-image: url('../assests/oie_1272046WzToC317.gif') ;
     /* background-blend-mode: exclusion; */
     /* mix-blend-mode:difference ; */
     background-size: cover ;
@@ -523,6 +524,9 @@ box-shadow:  -8px -8px 16px #a8a8a8,
     }
     #about p{
         font-size: 15px;
+    }
+    #about img{
+       display: none;
     }
     #home-tasks p{
         font-size: 15px;
