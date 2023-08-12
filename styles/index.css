@@ -1,50 +1,57 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-*{
+
+* {
     margin: 0px;
     border: 0px;
     padding: 0px;
 }
-body{
+
+body {
     background-color: rgb(16, 16, 27);
     font-family: 'Poppins', sans-serif;
-    color:rgb(249, 248, 255) ;
+    color: rgb(249, 248, 255);
     word-spacing: 3px;
     letter-spacing: 1.5px;
     overflow-x: hidden;
 }
+
 ::-webkit-scrollbar {
     width: 0px;
-  }
-  
-a{
+}
+
+a {
     text-decoration: none;
 }
 
-.navbar-brand{
-    width:60%;
+.navbar-brand {
+    width: 60%;
     display: flex;
     justify-content: center;
 }
-.navbar-brand img{
+
+.navbar-brand img {
     height: 45px;
 }
-.row{
+
+.row {
     padding: 0 5vw 0 5vw;
-   
+
 }
-.navbar{
+
+.navbar {
     z-index: 3;
     background-color: rgba(16, 16, 27, 0);
     text-align: center;
 }
-.title-box{
+
+.title-box {
     width: 100%;
     height: 100vh;
     display: flex;
     justify-content: center;
-    background-image:linear-gradient(rgba(16, 16, 27, 0),rgba(16, 16, 27, 0), rgb(16, 16, 27)), url("../assests/intro.gif");
-    background-position:center;
+    background-image: linear-gradient(rgba(16, 16, 27, 0), rgba(16, 16, 27, 0), rgb(16, 16, 27)), url("../assests/intro.gif");
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     align-items: center;
@@ -52,7 +59,7 @@ a{
 }
 
 
-#title-text p{
+.main-title{
     width: 100%;
     font-family: 'Orbitron', sans-serif;
     font-weight: bolder;
@@ -61,7 +68,8 @@ a{
     font-size: 16vw;
     margin: 0;
 }
-#title-text h6{
+
+.main-sub-title {
     margin-top: -4vw;
     width: 100%;
     font-family: 'Orbitron', sans-serif;
@@ -71,67 +79,78 @@ a{
     text-transform: uppercase;
     font-size: 2.5vw;
 }
-#about{
+
+#about {
     margin-top: 5%;
     width: 100%;
     display: flex;
     justify-content: center;
 
 }
-.sub-heading{
+
+.sub-heading {
     font-size: 70px;
     color: transparent;
-      font-weight: bolder;
-      -webkit-text-stroke: 0.8px rgb(255, 255, 255);
+    font-weight: bolder;
+    -webkit-text-stroke: 0.8px rgb(255, 255, 255);
 }
-#about p{
+
+#about p {
     padding-top: 3%;
     font-size: 1.25rem;
     font-weight: 400;
 }
-#about .col-lg-5{
+
+#about .col-lg-5 {
     display: flex;
     justify-content: center;
     align-items: start;
 }
-#about img{
+
+#about img {
     width: 100%;
 }
-#home-tasks{
+
+#home-tasks {
     width: 100%;
     padding-top: 13%;
     padding-bottom: 13%;
-    background-image: url('../assests/task_bg.png') ;
+    background-image: url('../assests/task_bg.png');
     /* background-blend-mode: exclusion; */
     /* mix-blend-mode:difference ; */
-    background-size: cover ;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
-#home-tasks h1{
+
+#home-tasks h1 {
     color: white;
     text-align: center;
     font-size: 70px;
     font-weight: bolder;
 }
-#home-tasks h1 span{
+
+#home-tasks h1 span {
     font-size: 70px;
     color: transparent;
     font-weight: bold;
-      -webkit-text-stroke: 1px white;
+    -webkit-text-stroke: 1px white;
 }
-#home-tasks p{
+
+#home-tasks p {
     text-align: end;
     color: white;
     font-size: 20px;
     font-weight: 400;
     padding-right: 3%;
 }
-.home-tasks-explore{
+
+.home-tasks-explore {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .glow-on-hover {
     width: 150px;
     height: 50px;
@@ -150,7 +169,7 @@ a{
     background: linear-gradient(45deg, #006eff, #9a1eff, #006eff, #9a1eff);
     position: absolute;
     top: -2px;
-    left:-2px;
+    left: -2px;
     background-size: 400%;
     z-index: -1;
     filter: blur(5px);
@@ -187,26 +206,37 @@ a{
 }
 
 @keyframes glowing {
-    0% { background-position: 0 0; }
-    50% { background-position: 400% 0; }
-    100% { background-position: 0 0; }
+    0% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 400% 0;
+    }
+
+    100% {
+        background-position: 0 0;
+    }
 }
 
-#rules{
+#rules {
     padding-bottom: 100px;
 }
-#rules ol{
+
+#rules ol {
     font-size: 1.25rem;
     padding-top: 1%;
 }
-.row{
+
+.row {
     margin: 0;
 }
-#rules li{
+
+#rules li {
     padding-top: 1.5vw;
 }
 
-#ranking{
+#ranking {
     width: 100%;
     background-color: rgb(255, 255, 255);
     margin-left: 0;
@@ -215,71 +245,83 @@ a{
     padding-bottom: 60px;
     background-image: url("../assests/5367739.jpg");
     background-blend-mode: multiply;
-    background-size: cover ;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
-#ranking p{
+
+#ranking p {
     text-align: center;
 }
-#ranking .col-lg-12{
+
+#ranking .col-lg-12 {
     padding-top: 50px;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-#ranking h1{
+
+#ranking h1 {
     color: rgb(16, 16, 27);
     font-weight: bolder;
     padding-bottom: 30px;
 }
-#rank{
+
+#rank {
     display: flex;
     justify-content: center;
-    border-collapse:separate;
-    border-spacing:0 10px;
+    border-collapse: separate;
+    border-spacing: 0 10px;
 }
 
 #rank td {
     padding: 15px 30px 15px;
 }
+
 #rank tr:nth-child(1) {
     border-radius: 61px;
-background: linear-gradient(315deg, #cacaca, #f0f0f0);
-box-shadow:  -8px -8px 16px #a8a8a8,
-             8px 8px 16px #ffffff;
+    background: linear-gradient(315deg, #cacaca, #f0f0f0);
+    box-shadow: -8px -8px 16px #a8a8a8,
+        8px 8px 16px #ffffff;
     font-size: 30px;
     font-weight: 200;
     color: rgb(0, 0, 0);
 }
+
 #rank tr:nth-child(2) {
     border-radius: 61px;
-background: linear-gradient(315deg, #cacaca, #f0f0f0);
-box-shadow:  -8px -8px 16px #a8a8a8,
-             8px 8px 16px #ffffff;
+    background: linear-gradient(315deg, #cacaca, #f0f0f0);
+    box-shadow: -8px -8px 16px #a8a8a8,
+        8px 8px 16px #ffffff;
     font-size: 25px;
     font-weight: 200;
     color: rgb(0, 0, 0);
 }
-#rank tr:nth-child(3) ,#rank tr:nth-child(4) ,#rank tr:nth-child(5) {
+
+#rank tr:nth-child(3),
+#rank tr:nth-child(4),
+#rank tr:nth-child(5) {
     border-radius: 61px;
-background: linear-gradient(315deg, #cacaca, #f0f0f0);
-box-shadow:  -8px -8px 16px #a8a8a8,
-             8px 8px 16px #ffffff;
+    background: linear-gradient(315deg, #cacaca, #f0f0f0);
+    box-shadow: -8px -8px 16px #a8a8a8,
+        8px 8px 16px #ffffff;
     font-size: 20px;
     font-weight: 200;
     color: rgb(0, 0, 0);
 }
+
 #rank td:nth-child(1) {
     border-radius: 10px 0px 0 10px;
     text-align: start;
 }
+
 #rank td:nth-child(2) {
     border-radius: 0px 10px 10px 0px;
     text-align: start;
 }
-#prizes{
+
+#prizes {
     padding-top: 5%;
     display: flex;
     justify-content: center;
@@ -287,16 +329,17 @@ box-shadow:  -8px -8px 16px #a8a8a8,
     overflow: hidden;
 }
 
-#prizes-title{
+#prizes-title {
     margin-left: -0vw;
     font-size: 18vw;
     color: rgba(255, 255, 255, 0);
-    font-weight:600;     
+    font-weight: 600;
     -webkit-text-stroke: 2px rgb(255, 255, 255);
     text-align: center;
     /* height: 100vh; */
 }
-.prize-items{
+
+.prize-items {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -304,26 +347,29 @@ box-shadow:  -8px -8px 16px #a8a8a8,
     padding-bottom: 5%;
 }
 
-#first-row{
+#first-row {
     height: 450px;
     width: 100%;
     display: flex;
     justify-content: center;
 
 }
-.prize-first{
+
+.prize-first {
     height: 450px;
     width: 450px;
 }
-.first-prize-image{
+
+.first-prize-image {
     height: 380px;
     width: 380px;
-    border-radius: 30% 70% 70% 30% / 30% 41% 59% 70% ;
+    border-radius: 30% 70% 70% 30% / 30% 41% 59% 70%;
     background-image: linear-gradient(296deg, #1e00ff, #9a1eff);
     display: flex;
     align-items: center;
 }
-#first-row h2{
+
+#first-row h2 {
     color: transparent;
     -webkit-text-stroke: 1px rgb(255, 255, 255);
     font-size: 120px;
@@ -332,13 +378,15 @@ box-shadow:  -8px -8px 16px #a8a8a8,
     /* z-index: -1; */
     position: relative;
 }
-#first-row img{
+
+#first-row img {
     position: absolute;
     height: 280px;
     margin-bottom: 30px;
     margin-left: 60px;
 }
-#first-row p{
+
+#first-row p {
     margin-left: 100px;
     text-align: start;
     font-weight: 800;
@@ -349,14 +397,16 @@ box-shadow:  -8px -8px 16px #a8a8a8,
     font-size: 26px;
     text-transform: uppercase;
 }
-#second-row{
+
+#second-row {
     margin-top: 30px;
     height: 450px;
     width: 100%;
     display: flex;
     justify-content: space-around;
 }
-#second-row h2{
+
+#second-row h2 {
     color: transparent;
     -webkit-text-stroke: 1px rgb(255, 255, 255);
     font-size: 90px;
@@ -366,44 +416,50 @@ box-shadow:  -8px -8px 16px #a8a8a8,
     position: relative;
 }
 
-.prize-second{ 
+.prize-second {
     height: 340px;
     width: 340px;
 }
-.prize-third{ 
+
+.prize-third {
     height: 340px;
     width: 340px;
 }
-.prize-second img{
+
+.prize-second img {
     position: absolute;
     height: 300px;
     margin-bottom: 100px;
     margin-left: 90px;
 }
-.prize-third img{
+
+.prize-third img {
     position: absolute;
     height: 300px;
     margin-bottom: 25px;
     margin-bottom: 100px;
     margin-left: 60px;
 }
-.second-prize-image{
+
+.second-prize-image {
     height: 330px;
     width: 330px;
-    border-radius: 30% 70% 61% 39% / 30% 67% 33% 70%  ;
+    border-radius: 30% 70% 61% 39% / 30% 67% 33% 70%;
     background-image: linear-gradient(216deg, #1e00ff, #9a1eff);
     display: flex;
     align-items: center;
 }
-.third-prize-image{
+
+.third-prize-image {
     height: 330px;
     width: 330px;
-    border-radius: 30% 70% 61% 39% / 63% 67% 33% 37%  ;
+    border-radius: 30% 70% 61% 39% / 63% 67% 33% 37%;
     background-image: linear-gradient(40deg, #1e00ff, #9a1eff);
     display: flex;
     align-items: center;
 }
-#second-row p{
+
+#second-row p {
     margin-left: 100px;
     text-align: start;
     font-weight: 800;
@@ -414,14 +470,16 @@ box-shadow:  -8px -8px 16px #a8a8a8,
     font-size: 22px;
     text-transform: uppercase;
 }
-#third-row{
+
+#third-row {
     margin-top: 30px;
     height: 450px;
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
-#third-row h2{
+
+#third-row h2 {
     color: transparent;
     -webkit-text-stroke: 1px rgb(255, 255, 255);
     font-size: 70px;
@@ -431,62 +489,71 @@ box-shadow:  -8px -8px 16px #a8a8a8,
     position: relative;
 }
 
-.prize-fifth{ 
+.prize-fifth {
     height: 340px;
     width: 340px;
 }
-.prize-forth{ 
+
+.prize-forth {
     height: 340px;
     width: 340px;
 }
-.prize-excess{ 
+
+.prize-excess {
     height: 340px;
     width: 340px;
 }
-.prize-fifth img{
+
+.prize-fifth img {
     position: absolute;
     height: 290px;
     margin-bottom: 80px;
     margin-left: 70px;
 }
-.prize-excess img{
+
+.prize-excess img {
     position: absolute;
     height: 350px;
     margin-bottom: 100px;
     margin-left: 70px;
 }
-.prize-forth img{
+
+.prize-forth img {
     position: absolute;
     height: 260px;
     margin-bottom: 25px;
     margin-bottom: 80px;
     margin-left: 60px;
 }
-.forth-prize-image{
+
+.forth-prize-image {
     height: 300px;
     width: 300px;
-    border-radius: 30% 70% 61% 39% / 30% 67% 33% 70%  ;
+    border-radius: 30% 70% 61% 39% / 30% 67% 33% 70%;
     background-image: linear-gradient(216deg, #1e00ff, #9a1eff);
     display: flex;
     align-items: center;
 }
-.fifth-prize-image{
+
+.fifth-prize-image {
     height: 300px;
     width: 300px;
-    border-radius: 30% 70% 61% 39% / 63% 67% 33% 37%  ;
+    border-radius: 30% 70% 61% 39% / 63% 67% 33% 37%;
     background-image: linear-gradient(40deg, #1e00ff, #9a1eff);
     display: flex;
     align-items: center;
 }
-.excess-prize-image{
+
+.excess-prize-image {
     height: 300px;
     width: 300px;
-    border-radius: 37% 63% 61% 39% / 29% 49% 51% 71% ;
+    border-radius: 37% 63% 61% 39% / 29% 49% 51% 71%;
     background-image: linear-gradient(40deg, #1e00ff, #9a1eff);
     display: flex;
     align-items: center;
 }
-#third-row p{
+
+#third-row p {
     margin-left: 100px;
     text-align: start;
     font-weight: 800;
@@ -497,9 +564,10 @@ box-shadow:  -8px -8px 16px #a8a8a8,
     font-size: 22px;
     text-transform: uppercase;
 }
-.footer{
+
+.footer {
     bottom: 0;
-    
+
     width: 100%;
     background-color: rgb(13, 11, 20);
     padding-top: 2%;
@@ -509,226 +577,274 @@ box-shadow:  -8px -8px 16px #a8a8a8,
     align-items: center;
 
 }
+
 .footer .row {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.footer div{
+
+.footer div {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.footer img{
+
+.footer img {
     height: 30px;
     padding-right: 30px;
 }
-.footer-text p{
+
+.footer-text p {
     margin: 0;
 }
 
 @media (max-width: 768px) {
-    .sub-heading{
+    .sub-heading {
         font-size: 40px;
     }
-    .navbar-brand img{
+
+    .navbar-brand img {
         height: 35px;
     }
-    #about p{
+
+    #about p {
         font-size: 15px;
     }
-    #about img{
-       display: none;
+
+    #about img {
+        display: none;
     }
-    #home-tasks p{
+
+    #home-tasks p {
         font-size: 15px;
         text-align: center;
     }
-    #home-tasks h1{
+
+    #home-tasks h1 {
         padding-top: 20px;
         padding-bottom: 10px;
         font-size: 40px;
     }
-    #home-tasks h1 span{
+
+    #home-tasks h1 span {
         font-size: 40px;
     }
-    .home-tasks-explore .col-sm-12{
+
+    .home-tasks-explore .col-sm-12 {
         padding-top: 12px;
         display: flex;
         justify-content: center;
         align-items: center;
         padding-bottom: 15px;
     }
-    #rules li{
+
+    #rules li {
         font-size: 15px;
     }
+
     #rank tr:nth-child(1) {
         font-size: 18px;
         font-weight: 300;
 
     }
+
     #rank tr:nth-child(2) {
         font-size: 16px;
         font-weight: 300;
     }
-    #rank tr:nth-child(3),tr:nth-child(4),tr:nth-child(5) {
+
+    #rank tr:nth-child(3),
+    tr:nth-child(4),
+    tr:nth-child(5) {
         font-size: 14px;
         font-weight: 300;
     }
+
     #rank td:nth-child(1) {
-       padding: 10px 15px;
+        padding: 10px 15px;
     }
+
     #rank td:nth-child(2) {
         border-radius: 0px 10px 10px 0px;
         text-align: start;
     }
-    #rules{
-        padding-top: 60px; 
+
+    #rules {
+        padding-top: 60px;
         padding-bottom: 60px;
     }
-    #first-row{
+
+    #first-row {
         max-height: 230px;
         width: 100%;
         display: flex;
         justify-content: center;
-    
-    }   
-    .prize-first{
-        height: 230px;
-        width:210px;
+
     }
-    .first-prize-image{
+
+    .prize-first {
+        height: 230px;
+        width: 210px;
+    }
+
+    .first-prize-image {
         height: 200px;
         width: 200px;
     }
-    #first-row h2{
+
+    #first-row h2 {
         font-size: 66px;
         margin-left: -30px;
         height: 25px;
     }
-    #first-row img{
+
+    #first-row img {
         height: 150px;
         margin-bottom: 25px;
         margin-left: 30px;
     }
-    #first-row p{
-        margin-left:10px;
+
+    #first-row p {
+        margin-left: 10px;
         margin-top: -30px;
         font-weight: 600;
         font-size: 15px;
     }
-    #second-row{
+
+    #second-row {
         flex-direction: column;
         width: 100%;
         min-height: 580px;
         align-items: center;
     }
-    #second-row h2{
+
+    #second-row h2 {
         font-size: 50px;
         margin-left: -30px;
         height: 25px;
     }
-    
-    .prize-second{ 
+
+    .prize-second {
         height: 200px;
         width: 200px;
     }
-    .prize-third{ 
+
+    .prize-third {
         height: 200px;
         width: 200px;
     }
-    .prize-second img{
+
+    .prize-second img {
         height: 180px;
         margin-bottom: 60px;
         margin-left: 70px;
     }
 
-    .second-prize-image{
+    .second-prize-image {
         height: 200px;
         width: 200px;
     }
-    .third-prize-image{
+
+    .third-prize-image {
         height: 200px;
         width: 200px;
     }
-    .prize-third img{
+
+    .prize-third img {
         height: 180px;
         margin-bottom: 70px;
         margin-left: 40px;
     }
-    #second-row p{
+
+    #second-row p {
         margin-left: 45px;
         margin-top: -36px;
         font-weight: 600;
         font-size: 15px;
     }
-    #third-row{
+
+    #third-row {
         flex-direction: column;
         margin-top: 30px;
         width: 100%;
         min-height: 800px;
         align-items: center;
     }
-    #third-row h2{
+
+    #third-row h2 {
         font-size: 50px;
         margin-left: -30px;
         height: 30px;
     }
-    .prize-fifth{ 
+
+    .prize-fifth {
         height: 200px;
         width: 200px;
     }
-    .prize-forth{ 
+
+    .prize-forth {
         height: 200px;
         width: 200px;
     }
-    .prize-excess{ 
+
+    .prize-excess {
         height: 200px;
         width: 200px;
     }
-    .prize-fifth img{
+
+    .prize-fifth img {
         height: 180px;
         margin-bottom: 50px;
         margin-left: 40px;
     }
-    .prize-excess img{
+
+    .prize-excess img {
         height: 200px;
         margin-bottom: 50px;
         margin-left: 40px;
     }
-    .prize-forth img{
+
+    .prize-forth img {
         height: 180px;
         margin-bottom: 60px;
         margin-left: 40px;
     }
-    .forth-prize-image{
-        height: 200px;
-        width: 200px;
-      }
-    .fifth-prize-image{
+
+    .forth-prize-image {
         height: 200px;
         width: 200px;
     }
-    .excess-prize-image{
+
+    .fifth-prize-image {
         height: 200px;
         width: 200px;
     }
-    #third-row p{
+
+    .excess-prize-image {
+        height: 200px;
+        width: 200px;
+    }
+
+    #third-row p {
         margin-left: 50px;
         margin-top: -36px;
         font-weight: 600;
         font-size: 15px;
     }
-    .footer img{
+
+    .footer img {
         height: 15px;
     }
-    .footer-text p{
+
+    .footer-text p {
         margin: 0;
         font-size: 8px;
         word-spacing: 1px;
     }
-    .prize-items{
+
+    .prize-items {
         margin-bottom: 100px;
     }
 }
