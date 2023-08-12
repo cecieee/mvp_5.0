@@ -52,6 +52,7 @@ a{
 }
 
 #title-text{
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -94,7 +95,7 @@ a{
     width: 100%;
     padding-top: 13%;
     padding-bottom: 13%;
-    background-image: url('../assests/oie_1272046WzToC317.gif') ;
+    background-image: url('../assests/bg-tasks.svg') ;
     /* background-blend-mode: exclusion; */
     /* mix-blend-mode:difference ; */
     background-size: cover ;
