@@ -656,8 +656,8 @@ a {
     }
 
     #rank tr:nth-child(3),
-    tr:nth-child(4),
-    tr:nth-child(5) {
+    #rank tr:nth-child(4),
+    #rank tr:nth-child(5) {
         font-size: 14px;
         font-weight: 300;
     }
