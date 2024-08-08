@@ -1,12 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Grotesk&family=Space+Mono&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 * {
     margin: 0px;
     border: 0px;
     padding: 0px;
 }
-
+.montserrat-font {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: bold;
+}  
 body {
     background-color: rgb(16, 16, 27);
     font-family: 'Poppins', sans-serif;
@@ -25,7 +30,7 @@ a {
 }
 
 .navbar-brand {
-    width: 60%;
+    width: fit-content;
     display: flex;
     justify-content: center;
 }
@@ -41,8 +46,13 @@ a {
 
 .navbar {
     z-index: 3;
-    background-color: rgba(16, 16, 27, 0);
+    /* background-color: rgba(16, 16, 27, 0); */
+    background-color: rgba(16, 16, 27, 0.842);
+    
     text-align: center;
+}
+.Heading-color{
+    color:#FEAC0B !important;
 }
 
 .title-box {
@@ -51,15 +61,16 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-image: linear-gradient(rgba(16, 16, 27, 0), rgba(16, 16, 27, 0), rgb(16, 16, 27)), url("../assests/intro.gif");
+    background-image: linear-gradient(rgba(16, 16, 27, 0), rgba(16, 16, 27, 0), rgb(16, 16, 27)), url("../assests/bg.gif");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     align-items: center;
     margin-left: 0;
 }
-
-
+.title-logo{
+    width:60%;
+}
 #title-text p {
     width: 100%;
     font-family: 'Orbitron', sans-serif;
@@ -72,7 +83,8 @@ a {
 
 .title-box h5 {
     margin-top: -4vw;
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    
     font-weight: bold;
     text-align: center;
     color: rgb(249, 248, 255);
@@ -90,9 +102,22 @@ a {
 
 .sub-heading {
     font-size: 70px;
+    width: fit-content;
     color: transparent;
     font-weight: bolder;
-    -webkit-text-stroke: 0.8px rgb(255, 255, 255);
+    -webkit-text-stroke: 0.8px rgb(254, 172, 11);
+    position: relative;
+}
+.sub-heading::before{
+    content: "";
+    width: 80%;
+    height: 5px;
+    border-radius: 10px;
+    background-color: #FEAC0B;
+    position: absolute;
+    bottom: 0;
+    left:50%;
+    transform: translateX(-50%);
 }
 
 #about p {
@@ -600,7 +625,17 @@ a {
     margin: 0;
 }
 
+/* Custom CSS to disable max-width for Bootstrap container */
+.container {
+    max-width: 100% !important;
+  }
 @media (max-width: 768px) {
+    .title-box{
+        background-position: left;
+    }
+    .title-logo {
+        width: 90%;
+    }
     .sub-heading {
         font-size: 40px;
     }
