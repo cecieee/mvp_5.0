@@ -31,7 +31,6 @@ a {
 
 .navbar-brand {
     width: fit-content;
-    display: flex;
     justify-content: center;
 }
 
@@ -41,15 +40,14 @@ a {
 
 .row {
     padding: 0 5vw 0 5vw;
-
 }
 
 .navbar {
     z-index: 3;
-    /* background-color: rgba(16, 16, 27, 0); */
-    background-color: rgba(16, 16, 27, 0.842);
-    
+    backdrop-filter: blur(10px);
     text-align: center;
+    transition: ease-in-out;
+    transition-duration: 300ms;
 }
 .Heading-color{
     color:#FEAC0B !important;
