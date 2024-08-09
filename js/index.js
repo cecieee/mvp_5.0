@@ -13,11 +13,13 @@ $(document).ready(loadScoresGSheet);
 let prizeTitle = document.getElementById("prizes-title");
 let prize = document.getElementById("prizes");
 const navbar_ = document.getElementById("my-nav");
+const progressBar = document.getElementById("progress-bar");
 
 window.addEventListener("scroll", function() {
   let value = window.scrollY;
   let totalHeight = document.documentElement.scrollHeight - window.innerHeight;
-  let tenPercentHeight = totalHeight * 0.1;
+  let threshold = totalHeight * 0.2;
+  let scrollPercentage = (value / totalHeight) * 100;
 
   console.log(value);
 
@@ -32,10 +34,14 @@ window.addEventListener("scroll", function() {
         navbar_.style.backgroundColor = "transparent";
     }
 
-    if (value > tenPercentHeight) {
-        navbar_.style.opacity = 100;
-    } else {
+    if (value < threshold) {
         navbar_.style.opacity = 0;
+    } else {
+        navbar_.style.opacity = 100;
     }
+  }
+
+  if (progressBar) {
+    progressBar.style.width = scrollPercentage + "%";
   }
 });
