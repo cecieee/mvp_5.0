@@ -18,7 +18,31 @@
         "use": "@vercel/static"
       },
       {
+        "src": "styles/staranimation.css",
+        "use": "@vercel/static"
+      },
+      {
+        "src": "styles/tasks.css",
+        "use": "@vercel/static"
+      },
+      {
+        "src": "styles/contact.css",
+        "use": "@vercel/static"
+      },
+      {
+        "src": "styles/reanking.css",
+        "use": "@vercel/static"
+      },
+      {
         "src": "pages/contact.html",
+        "use": "@vercel/static"
+      },
+      {
+        "src": "pages/reanking.html",
+        "use": "@vercel/static"
+      },
+      {
+        "src": "js/table.js",
         "use": "@vercel/static"
       }
     ],
