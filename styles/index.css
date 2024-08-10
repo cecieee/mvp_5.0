@@ -374,7 +374,7 @@ a {
     font-size: 18vw;
     color: rgba(255, 255, 255, 0);
     font-weight: 600;
-    -webkit-text-stroke: 2px rgb(255, 255, 255);
+    -webkit-text-stroke: 2px #FEAC0B;
     text-align: center;
     /* height: 100vh; */
 }
@@ -684,6 +684,7 @@ a {
 
     .home-tasks-explore .col-sm-12 {
         padding-top: 12px;
+        padding-bottom: 10px;
         display: flex;
         justify-content: center;
         align-items: center;

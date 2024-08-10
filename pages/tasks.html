@@ -1,356 +1,330 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tasks-MVP5.0</title>
+    <link rel="icon" href="../assests/ieee_tak_icon.jpeg" type="image/x-icon" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../styles/index.css" />
+    <link rel="stylesheet" href="../styles/tasks.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tasks-MVP5.0</title>
-  <link rel="icon" href="../assests/ieee_tak_icon.jpeg" type="image/x-icon">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
-  <link rel="stylesheet" href="../styles/index.css">
-  <link rel="stylesheet" href="../styles/tasks.css">
-</head>
-
-<body>
-  <div>
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="#"><img src="../assests/ieee_logo.png" alt="Logo" /></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="../index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../index.html#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../index.html#home-tasks">Tasks</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../index.html#rules">Rules</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../index.html#ranking">Leaderboard</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../index.html#prizes">Prizes</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../pages/contact.html">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <h1 class="tasks-heading">Tasks</h1>
-    <div class="tasks">
-      <div class="timeline">
-        <!--first-->
-
-        <div class="timeline__event  animated fadeInUp delay-3s timeline__event--type1">
-          <div class="timeline__event__icon ">
-          </div>
-          <div class="timeline__event__date">
-            Task 1
-          </div>
-          <div class="timeline__event__content ">
-            <div class="timeline__event__title">
-              Set up GoogleApps@IEEE account:
-            </div>
-            <div class="timeline__event__description">
-              <p>
-                GoogleApps@IEEE provides numerous opportunities to IEEE volunteers by rendering them a robust capability
-                for messaging
-                with access to a unique IEEE email address, Google Drive, calendar, and contact services without any
-                additional charges.
-                It lends the user with a high level of secrecy and eminence. The participants are expected to create an
-                account in
-                GoogleApps@IEEE and submit their IEEE mail-id along with the screenshot of the account via the Google
-                Form provided.
-              </p>
-            </div>
+  <body>
+    <div>
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#"
+            ><img src="../assests/ieee_logo.png" alt="Logo"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html#home-tasks">Tasks</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html#rules">Rules</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html#ranking">Leaderboard</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html#prizes">Prizes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/contact.html">Contact</a>
+              </li>
+            </ul>
           </div>
         </div>
+      </nav>
+      <h1 class="tasks-heading">Tasks</h1>
+      <div class="tasks">
+        <div class="timeline">
+          <!--first-->
 
-        <!--second-->
-
-        <div class="timeline__event animated fadeInUp delay-2s timeline__event--type2">
-          <div class="timeline__event__icon">
-          </div>
-          <div class="timeline__event__date">
-            Task 2
-          </div>
-          <div class="timeline__event__content">
-            <div class="timeline__event__title">
-              Create a LinkedIn profile and share your profile ID:
-            </div>
-            <div class="timeline__event__description">
-              <p>Creating a LinkedIn profile helps in expanding your network and to enhance professional connections. It
-                offers a
-                platform to showcase your skills, experiences and aspirations.
-                Here you'll create a LinkedIn profile and make at least 20 connections. After that, you can share the
-                URL of your
-                profile through a Google Form. It's a great way to network professionally and open up new opportunities.
-                Good luck.</p>
-            </div>
-          </div>
-        </div>
-
-        <!-- third -->
-
-        <div class="timeline__event animated fadeInUp delay-1s timeline__event--type3">
-          <div class="timeline__event__icon">
-
-          </div>
-          <div class="timeline__event__date">
-            Task 3
-          </div>
-          <div class="timeline__event__content">
-            <div class="timeline__event__title">
-              Explore a paper from IEEE Xplore library and submit the report.
-
-            </div>
-            <div class="timeline__event__description">
-              <p>Access the IEEE Xplore Digital Library at <a
-                  href="https://www.ieeexplore.ieee.org">ieeexplore.ieee.org</a> to find a paper relevant to your field
-                of interest.
-                Read the chosen paper with a focus on comprehending the problem addressed, methodology used, findings,
-                and conclusions.
-                Craft a report that summarizes the key points of the paper, discusses its significance, and incorporates
-                your insights
-                and analysis</p>
-            </div>
-
-          </div>
-        </div>
-
-        <!-- forth -->
-
-        <div class="timeline__event animated fadeInUp delay-1s timeline__event--type1">
-          <div class="timeline__event__icon">
-
-          </div>
-          <div class="timeline__event__date">
-            Task 4
-          </div>
-          <div class="timeline__event__content">
-            <div class="timeline__event__title">
-              Make five IEEE connections in IEEE Collabratec.
-            </div>
-            <div class="timeline__event__description">
-              <p>With IEEE Collabratec you can connect with global technology professionals by technical interests,
-                IEEE- affiliations,
-                authorship, region etc. It is an integrated platform to network, collaborate and create with technology
-                experts.
-                Participants must create a profile, make five connections in IEEE Collabratec and share the URL of their
-                profile in the
-                Google form below.
-              </p>
-            </div>
-
-          </div>
-        </div>
-
-        <!-- fifth -->
-
-        <div class="timeline__event animated fadeInUp delay-1s timeline__event--type2">
-          <div class="timeline__event__icon">
-
-          </div>
-          <div class="timeline__event__date">
-            Task 5
-          </div>
-          <div class="timeline__event__content">
-            <div class="timeline__event__title">
-              Follow IEEE SB CEC pages on all social media platforms
-            </div>
-            <div class="timeline__event__description">
-              <p>This task aims to enhance your involvement with IEEE by expanding your reach across their various
-                official social media
-                platforms. The participants should follow IEEE SB CEC pages on Instagram, Facebook and LinkedIn and
-                attach the
-                screenshots to the provided google form to show that you have done the same. Participants who do not
-                have a profile on
-                the mentioned platforms can complete the task using an account they have access to
-              </p>
-            </div>
-
-          </div>
-        </div>
-
-        <!-- sixth -->
-
-        <div class="timeline__event animated fadeInUp delay-1s timeline__event--type3">
-          <div class="timeline__event__icon">
-
-          </div>
-          <div class="timeline__event__date">
-            Task 6
-          </div>
-          <div class="timeline__event__content">
-            <div class="timeline__event__title">
-              Plan an event from the vision and mission based on an IEEE Society.
-            </div>
-            <div class="timeline__event__description">
-              <p>The participants are expected to learn about IEEE's Societies, read through the vision and mission of
-                each society and
-                provide a brief plan idea to conduct an event on the basis of any chosen society. Participants are
-                allowed to expand
-                their creative vision and come up with ideas related to the chosen mission. A brief description on your
-                intended event
-                and it's execution plan is to be drafted and submitted in the Google form
-              </p>
+          <div
+            class="timeline__event animated fadeInUp delay-3s timeline__event--type1"
+          >
+            <div class="timeline__event__icon"></div>
+            <div class="timeline__event__date">Task 1</div>
+            <div class="timeline__event__content">
+              <div class="timeline__event__title">
+                Create a GoogleApps@IEEE account:
+              </div>
+              <div class="timeline__event__description">
+                <p>
+                  GoogleApps@IEEE provides a lot of opportunities to IEEE
+                  members without causing any additional cost. Members gain a
+                  robust capability for messaging, with access to their email,
+                  calendar, and contact services along with providing security
+                  by running an automatic scanning for viruses. Besides, it
+                  offers more privacy and credibility to the user. Now it's your
+                  turn to create your IEEE mail ID.
+                </p>
+              </div>
             </div>
           </div>
-        </div>
 
-        <!-- seventh -->
-
-        <div class="timeline__event animated fadeInUp delay-1s timeline__event--type1">
-          <div class="timeline__event__icon">
-
-          </div>
-          <div class="timeline__event__date">
-            Task 7
-          </div>
-          <div class="timeline__event__content">
-            <div class="timeline__event__title">
-              Add IEEE and Society Membership to Cart:
+          <!--second-->
+          
+          <!-- <div
+            class="timeline__event animated fadeInUp delay-2s timeline__event--type2"
+          >
+            <div class="timeline__event__icon"></div>
+            <div class="timeline__event__date">Task 2</div>
+            <div class="timeline__event__content">
+              <div class="timeline__event__title">
+                Follow IEEE on all social media pages and upload screenshots:
+              </div>
+              <div class="timeline__event__description">
+                <p>
+                  Follow the IEEE SB CEC social media pages: To redeem points for this task, the members have to follow the IEEE SB CEC page on Instagram, Facebook, and LinkedIn, and provide three screenshots of having done the same in the google form presented to them. Student members who do not own any one or two of these accounts must follow the page with whatever available account they possess.
+                </p>
+              </div>
             </div>
-            <div class="timeline__event__description">
-              <p>Add your IEEE membership to the cart, but you do not need to pay or checkout. Instead, upload a
-                screenshot of the cart
-                via the submission link provided.</p>
+          </div> -->
+
+          <!-- third -->
+
+          <!-- <div
+            class="timeline__event animated fadeInUp delay-1s timeline__event--type3"
+          >
+            <div class="timeline__event__icon"></div>
+            <div class="timeline__event__date">Task 3</div>
+            <div class="timeline__event__content">
+              <div class="timeline__event__title">
+                Create a LinkedIn profile and share your profile
+              </div>
+              <div class="timeline__event__description">
+                <p>
+                  Create a LinkedIn profile, which is the most effective and fastest professional network platform that offers opportunities every day. LinkedIn is a platform connecting new people with their professional designations. It is essentially used to establish necessary relationships with professional aspects and act as a guide to quickly find a job.
+                </p>
+              </div>
             </div>
-          </div>
-        </div>
+          </div> -->
 
-        <!-- eighth -->
+          <!-- forth -->
 
-        <div class="timeline__event animated fadeInUp delay-1s timeline__event--type2">
-          <div class="timeline__event__icon">
-
-          </div>
-          <div class="timeline__event__date">
-            Task 8
-          </div>
-          <div class="timeline__event__content">
-            <div class="timeline__event__title">
-              Purchase a free webinar:
+          <!-- <div
+            class="timeline__event animated fadeInUp delay-1s timeline__event--type1"
+          >
+            <div class="timeline__event__icon"></div>
+            <div class="timeline__event__date">Task 4</div>
+            <div class="timeline__event__content">
+              <div class="timeline__event__title">
+                Make a report based on any IEEE research paper
+              </div>
+              <div class="timeline__event__description">
+                <p>
+                  Choose a research paper from the IEEE Xplore Digital Library.
+                  <br />
+                  Read and understand the paper thoroughly.
+                  <br />
+                  Write a report summarizing the key points, methodology, results, and your insights.
+                </p>
+              </div>
             </div>
-            <div class="timeline__event__description">
-              <p>Login to <a href="https://www.ieee.org/">ieee.org</a> and purchase a free webinar. Submit the details
-                of webinar name, ID and a small abstract about the
-                webinar content through the submission link.</p>
-            </div>
-          </div>
-        </div>
+          </div> -->
 
-        <!-- ninth -->
+          <!-- fifth -->
 
-        <div class="timeline__event animated fadeInUp delay-1s timeline__event--type3">
-          <div class="timeline__event__icon">
-        
-          </div>
-          <div class="timeline__event__date">
-            Task 9
-          </div>
-          <div class="timeline__event__content">
-            <div class="timeline__event__title">
-              Join any of IEEE's Online Communities
-            </div>
-            <div class="timeline__event__description">
-              <p>Communities in IEEE Collabratec are large forums for sharing and discussing trending technological topics, IEEE
-              Societies/IEEE aligned entities.</p>
-            </div>
-          </div>
-        </div>
+          <!-- <div
+            class="timeline__event animated fadeInUp delay-1s timeline__event--type2"
+          >
+            <div class="timeline__event__icon"></div>
+            <div class="timeline__event__date">Task 5</div>
+            <div class="timeline__event__content">
+              <div class="timeline__event__title">
+                Download IEEE app and IEEE membership card
+              </div>
+              <div class="timeline__event__description">
+                <p>
+                  Download the IEEE app from Play Store/App Store and submit the screenshot as a proof.
+                  <br />
+Download the IEEE Membership card and upload the pdf.
 
-        <!-- tenth -->
-
-        <div class="timeline__event animated fadeInUp delay-1s timeline__event--type1">
-          <div class="timeline__event__icon">
-        
-          </div>
-          <div class="timeline__event__date">
-            Task 10
-          </div>
-          <div class="timeline__event__content">
-            <div class="timeline__event__title">
-              Explore IEEE Spectrum
+                </p>
+              </div>
             </div>
-            <div class="timeline__event__description">
-              <p>Choose a topic from IEEE Spectrum and make a podcast.</p>
-            </div>
-          </div>
-        </div>
+          </div> -->
 
-        <!-- eleventh -->
+          <!-- sixth -->
 
-        <div class="timeline__event animated fadeInUp delay-1s timeline__event--type2">
-          <div class="timeline__event__icon">
-        
-          </div>
-          <div class="timeline__event__date">
-            Task 11
-          </div>
-          <div class="timeline__event__content">
-            <div class="timeline__event__title">
-              Download the IEEE appPurchase a free webinar:
+          <!-- <div
+            class="timeline__event animated fadeInUp delay-1s timeline__event--type3"
+          >
+            <div class="timeline__event__icon"></div>
+            <div class="timeline__event__date">Task 6</div>
+            <div class="timeline__event__content">
+              <div class="timeline__event__title">
+                Make a podcast based on a topic from IEEE Spectrum
+              </div>
+              <div class="timeline__event__description">
+                <p>
+                  Choose a publication or topic of interest from IEEE Spectrum.
+Plan your podcast script and key points.
+Record and edit your podcast
+
+                </p>
+              </div>
             </div>
-            <div class="timeline__event__description">
-              <p>Download the IEEE app from Play Store/App Store and submit the screenshot as a proof.</p>
+          </div> -->
+
+          <!-- seventh -->
+
+          <!-- <div
+            class="timeline__event animated fadeInUp delay-1s timeline__event--type1"
+          >
+            <div class="timeline__event__icon"></div>
+            <div class="timeline__event__date">Task 7</div>
+            <div class="timeline__event__content">
+              <div class="timeline__event__title">
+                Make 6 IEEE connections in IEEE Collabratec:
+              </div>
+              <div class="timeline__event__description">
+                <p>
+                  Sign in to IEEE Collabratec.
+                  Connect with at least six IEEE members.
+
+                </p>
+              </div>
+            </div>
+          </div> -->
+
+          <!-- eighth -->
+
+          <!-- <div
+            class="timeline__event animated fadeInUp delay-1s timeline__event--type2"
+          >
+            <div class="timeline__event__icon"></div>
+            <div class="timeline__event__date">Task 8</div>
+            <div class="timeline__event__content">
+              <div class="timeline__event__title">Plan an IEEE event:</div>
+              <div class="timeline__event__description">
+                <p>
+                  Assuming the role of an IEEE coordinator planning an event, describe the event and outline the procedures for its execution.
+                </p>
+              </div>
+            </div>
+          </div> -->
+
+          <!-- ninth -->
+
+          <!-- <div
+            class="timeline__event animated fadeInUp delay-1s timeline__event--type3"
+          >
+            <div class="timeline__event__icon"></div>
+            <div class="timeline__event__date">Task 9</div>
+            <div class="timeline__event__content">
+              <div class="timeline__event__title">
+                Create a resume:
+              </div>
+              <div class="timeline__event__description">
+                <p>
+                  Create your resume and upload it in the Google form provided.
+                </p>
+              </div>
+            </div>
+          </div> -->
+
+          <!-- tenth -->
+
+          <!-- <div
+            class="timeline__event animated fadeInUp delay-1s timeline__event--type1"
+          >
+            <div class="timeline__event__icon"></div>
+            <div class="timeline__event__date">Task 10</div>
+            <div class="timeline__event__content">
+              <div class="timeline__event__title">Quiz</div>
+              <div class="timeline__event__description">
+                <p>Read the reference material provided
+Answer the questions from the google form and submit in a timely manner</p>
+              </div>
+            </div>
+          </div> -->
+
+          <!-- eleventh -->
+
+          <!-- <div
+            class="timeline__event animated fadeInUp delay-1s timeline__event--type2"
+          >
+            <div class="timeline__event__icon"></div>
+            <div class="timeline__event__date">Task 11</div>
+            <div class="timeline__event__content">
+              <div class="timeline__event__title">
+                Attend an IEEE Webinar:
+              </div>
+              <div class="timeline__event__description">
+                <p>
+                  Participate in an IEEE webinar and write a summary based on that.
+                </p>
+              </div>
+            </div>
+          </div> -->
+
+          <!-- twelveth -->
+
+          <!-- <div
+            class="timeline__event animated fadeInUp delay-1s timeline__event--type3"
+          >
+            <div class="timeline__event__icon"></div>
+            <div class="timeline__event__date">Task 12</div>
+            <div class="timeline__event__content">
+              <div class="timeline__event__title">
+                Idea Pitching 
+Competition
+(Tie Breaker)
+
+              </div>
+              <div class="timeline__event__description">
+                <p>Conduct an Idea pitching competition and present it without slides.</p>
+              </div>
             </div>
           </div>
         </div>
-
-        <!-- twelveth -->
-
-        <div class="timeline__event animated fadeInUp delay-1s timeline__event--type3">
-          <div class="timeline__event__icon">
-        
-          </div>
-          <div class="timeline__event__date">
-            Task 12
-          </div>
-          <div class="timeline__event__content">
-            <div class="timeline__event__title">
-              Download IEEE membership card.
-            </div>
-            <div class="timeline__event__description">
-              <p>Download the IEEE membership card and upload the pdf .</p>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-    <div class="footer">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="footer-logo">
-              <img src="../assests/ieee_logo.png" alt="Logo" />
-            </div>
-            <div class="footer-text">
-              <p>
-                ©IEEE SB CEC 2024
-              </p>
+      </div> -->
+      <div class="footer">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="footer-logo">
+                <img src="../assests/ieee_logo.png" alt="Logo" />
+              </div>
+              <div class="footer-text">
+                <p>©IEEE SB CEC 2024</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
-    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
-    crossorigin="anonymous"></script>
-</body>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
