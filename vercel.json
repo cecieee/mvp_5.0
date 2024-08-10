@@ -8,6 +8,10 @@
       {
         "src": "styles/styles.css",
         "use": "@vercel/static"
+      },
+      {
+        "src": "js/index.js",
+        "use": "@vercel/static"
       }
     ],
     "rewrites": [
