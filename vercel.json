@@ -44,6 +44,10 @@
       {
         "src": "js/table.js",
         "use": "@vercel/static"
+      },
+      {
+        "src": "assets/**/*",
+        "use": "@vercel/static"
       }
     ],
     "rewrites": [
