@@ -48,7 +48,6 @@ a {
     text-align: center;
     transition: ease-in-out;
     transition-duration: 300ms;
-    opacity: 0;
 }
 .Heading-color{
     color:#FEAC0B !important;
