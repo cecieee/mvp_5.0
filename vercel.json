@@ -46,7 +46,7 @@
         "use": "@vercel/static"
       },
       {
-        "src": "assets/**/*",
+        "src": "assests/**/*",
         "use": "@vercel/static"
       }
     ],
