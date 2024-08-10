@@ -25,6 +25,16 @@
         "source": "/register",
         "destination": "https://docs.google.com/forms/d/e/1FAIpQLSe80T4cttVytTxSkFzuWvueLAzxz2Otaq0Oc_q2RMAaWZPTOA/viewform",
         "permanent": false
+      },
+      {
+        "source": "/tasks",
+        "destination": "/pages/tasks.html",
+        "permanent": false
+      },
+      {
+        "source": "/contact",
+        "destination": "/pages/contact.html",
+        "permanent": false
       }
     ]
   }
