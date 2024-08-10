@@ -12,6 +12,14 @@
       {
         "src": "js/index.js",
         "use": "@vercel/static"
+      },
+      {
+        "src": "pages/tasks.html",
+        "use": "@vercel/static"
+      },
+      {
+        "src": "pages/contact.html",
+        "use": "@vercel/static"
       }
     ],
     "rewrites": [
