@@ -6,13 +6,17 @@
         "use": "@vercel/static"
       }
     ],
-    "routes": [
+    "rewrites": [
       {
-        "src": "/(.*)",
-        "dest": "/index.html"
+        "source": "/(.*)",
+        "destination": "/index.html"
       }
     ],
     "redirects": [
-    { "source": "/register", "destination": "https://docs.google.com/forms/d/e/1FAIpQLSe80T4cttVytTxSkFzuWvueLAzxz2Otaq0Oc_q2RMAaWZPTOA/viewform", "permanent": false }
-  ]
+      {
+        "source": "/register",
+        "destination": "https://docs.google.com/forms/d/e/1FAIpQLSe80T4cttVytTxSkFzuWvueLAzxz2Otaq0Oc_q2RMAaWZPTOA/viewform",
+        "permanent": false
+      }
+    ]
   }
