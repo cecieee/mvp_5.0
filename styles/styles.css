@@ -205,7 +205,7 @@ a {
 
 .glow-on-hover:before {
     content: '';
-    background: linear-gradient(45deg, #006eff, #9a1eff, #006eff, #9a1eff);
+    background: linear-gradient(45deg, #006eff, rgb(16, 16, 27), #006eff, rgb(16, 16, 27));
     position: absolute;
     top: -2px;
     left: -2px;
@@ -373,7 +373,7 @@ a {
     font-size: 18vw;
     color: rgba(255, 255, 255, 0);
     font-weight: 600;
-    -webkit-text-stroke: 2px rgb(255, 255, 255);
+    -webkit-text-stroke: 2px #FEAC0B;
     text-align: center;
     /* height: 100vh; */
 }
@@ -403,7 +403,7 @@ a {
     height: 380px;
     width: 380px;
     border-radius: 30% 70% 70% 30% / 30% 41% 59% 70%;
-    background-image: linear-gradient(296deg, #1e00ff, #9a1eff);
+    background-image: linear-gradient(296deg, #FEAC0B, rgb(16, 16, 27));
     display: flex;
     align-items: center;
 }
@@ -484,7 +484,7 @@ a {
     height: 330px;
     width: 330px;
     border-radius: 30% 70% 61% 39% / 30% 67% 33% 70%;
-    background-image: linear-gradient(216deg, #1e00ff, #9a1eff);
+    background-image: linear-gradient(216deg, #FEAC0B, rgb(16, 16, 27));
     display: flex;
     align-items: center;
 }
@@ -493,7 +493,7 @@ a {
     height: 330px;
     width: 330px;
     border-radius: 30% 70% 61% 39% / 63% 67% 33% 37%;
-    background-image: linear-gradient(40deg, #1e00ff, #9a1eff);
+    background-image: linear-gradient(40deg, #FEAC0B, rgb(16, 16, 27));
     display: flex;
     align-items: center;
 }
@@ -569,7 +569,7 @@ a {
     height: 300px;
     width: 300px;
     border-radius: 30% 70% 61% 39% / 30% 67% 33% 70%;
-    background-image: linear-gradient(216deg, #1e00ff, #9a1eff);
+    background-image: linear-gradient(216deg, #FEAC0B, rgb(16, 16, 27));
     display: flex;
     align-items: center;
 }
@@ -578,7 +578,7 @@ a {
     height: 300px;
     width: 300px;
     border-radius: 30% 70% 61% 39% / 63% 67% 33% 37%;
-    background-image: linear-gradient(40deg, #1e00ff, #9a1eff);
+    background-image: linear-gradient(40deg, #FEAC0B, rgb(16, 16, 27));
     display: flex;
     align-items: center;
 }
@@ -587,7 +587,7 @@ a {
     height: 300px;
     width: 300px;
     border-radius: 37% 63% 61% 39% / 29% 49% 51% 71%;
-    background-image: linear-gradient(40deg, #1e00ff, #9a1eff);
+    background-image: linear-gradient(40deg, #FEAC0B, rgb(16, 16, 27));
     display: flex;
     align-items: center;
 }
@@ -683,6 +683,7 @@ a {
 
     .home-tasks-explore .col-sm-12 {
         padding-top: 12px;
+        padding-bottom: 10px;
         display: flex;
         justify-content: center;
         align-items: center;

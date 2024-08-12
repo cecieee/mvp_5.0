@@ -1,0 +1,76 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "index.html",
+        "use": "@vercel/static"
+      },
+      {
+        "src": "styles/styles.css",
+        "use": "@vercel/static"
+      },
+      {
+        "src": "js/index.js",
+        "use": "@vercel/static"
+      },
+      {
+        "src": "pages/tasks.html",
+        "use": "@vercel/static"
+      },
+      {
+        "src": "styles/staranimation.css",
+        "use": "@vercel/static"
+      },
+      {
+        "src": "styles/tasks.css",
+        "use": "@vercel/static"
+      },
+      {
+        "src": "styles/contact.css",
+        "use": "@vercel/static"
+      },
+      {
+        "src": "styles/reanking.css",
+        "use": "@vercel/static"
+      },
+      {
+        "src": "pages/contact.html",
+        "use": "@vercel/static"
+      },
+      {
+        "src": "pages/reanking.html",
+        "use": "@vercel/static"
+      },
+      {
+        "src": "js/table.js",
+        "use": "@vercel/static"
+      },
+      {
+        "src": "assests/**/*",
+        "use": "@vercel/static"
+      }
+    ],
+    "rewrites": [
+      {
+        "source": "/(.*)",
+        "destination": "/index.html"
+      }
+    ],
+    "redirects": [
+      {
+        "source": "/register",
+        "destination": "https://docs.google.com/forms/d/e/1FAIpQLSe80T4cttVytTxSkFzuWvueLAzxz2Otaq0Oc_q2RMAaWZPTOA/viewform",
+        "permanent": false
+      },
+      {
+        "source": "/tasks",
+        "destination": "/pages/tasks.html",
+        "permanent": false
+      },
+      {
+        "source": "/contact",
+        "destination": "/pages/contact.html",
+        "permanent": false
+      }
+    ]
+  }
