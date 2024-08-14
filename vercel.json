@@ -63,11 +63,6 @@
         "permanent": false
       },
       {
-        "source":"/Task_1",
-        "destination": "https://docs.google.com/forms/d/e/1FAIpQLSdaLElKYe6D-ior3hFY0dNo854ll-srUTKjGYda2oLZdhTNjw/viewform?usp=sf_link",
-        "permanent": false
-      },
-      {
         "source": "/tasks",
         "destination": "/pages/tasks.html",
         "permanent": false
@@ -75,6 +70,16 @@
       {
         "source": "/contact",
         "destination": "/pages/contact.html",
+        "permanent": false
+      },
+      {
+        "source":"/Task_1",
+        "destination": "https://docs.google.com/forms/d/e/1FAIpQLSdaLElKYe6D-ior3hFY0dNo854ll-srUTKjGYda2oLZdhTNjw/viewform?usp=sf_link",
+        "permanent": false
+      },
+      {
+        "source": "/Task_2",
+        "destination": "https://docs.google.com/forms/d/e/1FAIpQLSdkFR--VCvMeV-W9mPjw1-YzI8h6o1HoM_3cy1Q3JOczVk-Jg/viewform?usp=sf_link",
         "permanent": false
       }
     ]
