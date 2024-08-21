@@ -56,6 +56,43 @@
   .table, .table td, .table th {
     border-collapse: collapse;
   }
+
+  
+.footer {
+  bottom: 0;
+
+  width: 100%;
+  background-color: rgb(13, 11, 20);
+  padding-top: 2%;
+  padding-bottom: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.footer .row {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer img {
+  height: 30px;
+  padding-right: 30px;
+}
+
+.footer-text p {
+  margin: 0;
+}
+  
   
 
 
@@ -69,7 +106,15 @@
     .table{
       font-size: 15px;
     }
+    .footer img {
+      height: 15px;
+  }
 
+  .footer-text p {
+      margin: 0;
+      font-size: 8px;
+      word-spacing: 1px;
+  }
     .table td:nth-child(1) {
       min-width: 200px;
     }
@@ -88,3 +133,8 @@
     }
   }
 
+.ranking_background{
+  background-color: rgb(16, 16, 27);
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}

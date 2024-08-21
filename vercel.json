@@ -91,6 +91,11 @@
         "source": "/Task_4",
         "destination": "https://docs.google.com/forms/d/e/1FAIpQLScpy7d9Zim7TGdVTiskv8-KyOczSFsLAREg_LWQdyigWkgpgQ/viewform?usp=sf_link",
         "permanent": false
+      },
+      {
+        "source": "/Task_5",
+        "destination": "https://docs.google.com/forms/d/e/1FAIpQLSek11ig1f6bRq4klKfNDxbbKvgui3REfHX1EOnhtxbuDBF2Aw/viewform?usp=sf_link",
+        "permanent": false
       }
     ]
   }
