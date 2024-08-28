@@ -277,12 +277,12 @@ a {
 
 #ranking {
     width: 100%;
-    background-color: rgb(255, 255, 255);
+    /* background-color: rgb(255, 255, 255); */
     margin-left: 0;
     margin-right: 0;
-    color: rgb(16, 16, 27);
+    color: white;
     padding-bottom: 60px;
-    background-image: url("../assests/5367739.jpg");
+    background-image: url("../assests/task_bg.png");
     background-blend-mode: multiply;
     background-size: cover;
     background-position: center;
@@ -320,9 +320,9 @@ a {
 
 #rank tr:nth-child(1) {
     border-radius: 61px;
-    background: linear-gradient(315deg, #cacaca, #f0f0f0);
-    box-shadow: -8px -8px 16px #a8a8a8,
-        8px 8px 16px #ffffff;
+    background: linear-gradient(315deg, #FEAC0B, #FEAC0B);
+    box-shadow:
+        8px 8px 16px #FEAC0B;
     font-size: 30px;
     font-weight: 200;
     color: rgb(0, 0, 0);
@@ -330,9 +330,9 @@ a {
 
 #rank tr:nth-child(2) {
     border-radius: 61px;
-    background: linear-gradient(315deg, #cacaca, #f0f0f0);
-    box-shadow: -8px -8px 16px #a8a8a8,
-        8px 8px 16px #ffffff;
+    background: linear-gradient(315deg, #FEAC0B, #FEAC0B);
+    box-shadow: 
+        8px 8px 16px #FEAC0B;
     font-size: 25px;
     font-weight: 200;
     color: rgb(0, 0, 0);
@@ -342,9 +342,9 @@ a {
 #rank tr:nth-child(4),
 #rank tr:nth-child(5) {
     border-radius: 61px;
-    background: linear-gradient(315deg, #cacaca, #f0f0f0);
-    box-shadow: -8px -8px 16px #a8a8a8,
-        8px 8px 16px #ffffff;
+    background: linear-gradient(315deg, #FEAC0B,#FEAC0B);
+    box-shadow: 
+        8px 8px 16px #FEAC0B;
     font-size: 20px;
     font-weight: 200;
     color: rgb(0, 0, 0);
