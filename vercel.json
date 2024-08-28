@@ -38,7 +38,7 @@
         "use": "@vercel/static"
       },
       {
-        "src": "pages/reanking.html",
+        "src": "pages/ranking.html",
         "use": "@vercel/static"
       },
       {
