@@ -73,6 +73,11 @@
         "permanent": false
       },
       {
+        "source": "/ranking",
+        "destination": "/pages/ranking.html",
+        "permanent": false
+      },
+      {
         "source":"/Task_1",
         "destination": "https://docs.google.com/forms/d/e/1FAIpQLSdaLElKYe6D-ior3hFY0dNo854ll-srUTKjGYda2oLZdhTNjw/viewform?usp=sf_link",
         "permanent": false
