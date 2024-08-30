@@ -111,6 +111,11 @@
         "source": "/Task_7",
         "destination": "https://docs.google.com/forms/d/e/1FAIpQLSfx5RVVGRiKl20kJNv9E2xLbSGUMSN7CsNNqHxkz5_aM4fwMw/viewform?usp=sf_link",
         "permanent": false
+      },
+      {
+        "source": "/Task_8",
+        "destination": "https://docs.google.com/forms/d/e/1FAIpQLSeC-HS19L2U4a00iYdyGhVzBlpewxLJtn6KAh2G3_mP-PxzFw/viewform?usp=sf_link",
+        "permanent": false
       }
     ]
   }
