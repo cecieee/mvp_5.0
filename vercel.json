@@ -121,6 +121,16 @@
         "source": "/Task_9",
         "destination": "https://docs.google.com/forms/d/e/1FAIpQLSedz1c0AbygOlXD8jxwRW8ABN6H88ciJ1MFBRV8q-Rzdf_BfA/viewform?usp=sf_link",
         "permanent": false
+      },
+      {
+        "source": "/Task_10",
+        "destination": "https://form-timer.com/start/96f10ad0",
+        "permanent": false
+      },
+      {
+        "source": "/Task_11",
+        "destination": "https://forms.gle/5ACybPwh26Si271U8",
+        "permanent": false
       }
     ]
   }
