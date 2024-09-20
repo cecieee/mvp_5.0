@@ -131,6 +131,11 @@
         "source": "/Task_11",
         "destination": "https://forms.gle/5ACybPwh26Si271U8",
         "permanent": false
+      },
+      {
+        "source": "/Feedback",
+        "destination": "https://docs.google.com/forms/d/e/1FAIpQLSejfA8P2liZoSJZeoqWEc_npUP0tWkMJwlqs8f-FwvpqiOF_A/viewform?usp=sf_link",
+        "permanent": false
       }
     ]
   }
